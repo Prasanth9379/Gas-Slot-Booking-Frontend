@@ -65,7 +65,7 @@ const GasCardForm = () => {
   
     try {
       const res = await axios.post(
-        "https://gas-slot-booking-app-backend.onrender.com/api/user/booking",
+        "https://gas-slot-booking-backend.onrender.com/api/user/booking",
         payload
       );
       setMessage(res.data.message);
