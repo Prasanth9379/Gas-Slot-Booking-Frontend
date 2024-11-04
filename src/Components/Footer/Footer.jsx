@@ -129,7 +129,7 @@ const Footer = () => {
                 <i className="fab fa-linkedin"></i>
               </Link>
               <Link
-                to="https://github.com/ajith-11399/"
+                to="https://github.com/Prasanth9379/"
                 target="_new"
                 className="text-white me-4"
               >
