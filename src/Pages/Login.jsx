@@ -102,6 +102,7 @@ const Login = () => {
                     className="text-danger"
                   />
                 </div>
+                <div className="row align-items-center justify-content-center m-3">
                 <button
                   type="submit"
                   className="btn btn-primary btn-block mt-3"
@@ -109,6 +110,11 @@ const Login = () => {
                 >
                   Log In
                 </button>
+                <button className="btn btn-primary btn-block mt-3" 
+                onClick={()=>navigate("/")}>
+                Register
+                </button>
+                </div>
               </Form>
             )}
           </Formik>
